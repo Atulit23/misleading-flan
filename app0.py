@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from gradio_client import Client
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-
+ 
 app = Flask(__name__)
 CORS(app)
 
