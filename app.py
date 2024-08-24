@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 import json
-import gradio as gr
+import gradio as gr 
 from gradio_client import Client
 
 def scrape_data(amazon_url):
